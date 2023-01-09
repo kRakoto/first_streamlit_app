@@ -10,7 +10,7 @@ streamlit.header('Breakfast Menu')
 streamlit.text('🐔 hard-Boiled Free-Range egg')
 
 ##importing with pandas
-my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+##my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
 ##set index to the fruits in my fruit list
 ##in this way we will get the Fruit label as index
