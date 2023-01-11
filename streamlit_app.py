@@ -44,3 +44,16 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"kiwi")
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 ##then display the table
 streamlit.dataframe(fruityvice_normalized)
+
+## new section to display the user s choice
+stramlit.header('Fruityvice Fruit Advice)
+
+## text input that will track user s answer
+fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
+
+##display the user s choice
+streamlit.write('The user entered ', fruit_choice)
+                
+
+                
+
