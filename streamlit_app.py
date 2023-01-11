@@ -32,7 +32,7 @@ streamlit.dataframe(fruits_to_show)
 
 streamlit.header('Fruityvice Fruit Advice!')
 ##to display the api response
-#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + variable_test)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + 'Kiwi')
 
 ##to display the data as txt
 #streamlit.text(fruityvice_response.json())
@@ -50,10 +50,4 @@ fruit_choice = streamlit.text_input('What fruit would you like information about
 
 ##display the user s choice
 streamlit.write('The user entered ', fruit_choice)
-variable_test = streamlit.write(fruit_choice)
-                
-variable_test = streamlit.str(variable_test)
-                
-streamlit.header('Fruityvice Fruit Advice!')
-##to display the api response
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + variable_test)
+
