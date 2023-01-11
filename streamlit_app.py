@@ -13,9 +13,6 @@ streamlit.header('Breakfast Menu')
 
 streamlit.text('🐔 hard-Boiled Free-Range egg')
 
-
-
-
 ##importing with pandas
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
@@ -45,8 +42,8 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 ##then display the table
 streamlit.dataframe(fruityvice_normalized)
 
-## new section to display the user s choice
-stramlit.header('Fruityvice Fruit Advice')
+##new section to display the user s choice
+streamlit.header('Fruityvice Fruit Advice')
 
 ## text input that will track user s answer
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
