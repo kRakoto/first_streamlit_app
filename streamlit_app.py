@@ -52,6 +52,6 @@ fruit_choice = streamlit.text_input('What fruit would you like information about
 streamlit.write('The user entered ', fruit_choice)
 variable_test = streamlit.write(fruit_choice)
                 
-variable_test = string(variable_test)
+variable_test = str(variable_test)
                 
 
