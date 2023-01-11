@@ -1,7 +1,7 @@
 
 import streamlit
 import pandas
-
+import requests
 ## adding title to my app
 streamlit.title('Trainning for Mell s parent new diner')
 
@@ -28,3 +28,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 ##Display it in our app
 streamlit.dataframe(fruits_to_show)
+
+##to display the api response
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
