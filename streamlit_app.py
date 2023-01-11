@@ -2,6 +2,10 @@
 import streamlit
 import pandas
 import requests
+
+## link of Streamlit app
+## https://krakoto-first-streamlit-app-streamlit-app-96wo2v.streamlit.app/
+
 ## adding title to my app
 streamlit.title('Trainning for Mell s parent new diner')
 
