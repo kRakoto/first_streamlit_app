@@ -46,7 +46,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 ## new section to display the user s choice
-stramlit.header('Fruityvice Fruit Advice)
+stramlit.header('Fruityvice Fruit Advice')
 
 ## text input that will track user s answer
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
