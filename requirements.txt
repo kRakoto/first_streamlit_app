@@ -8,6 +8,6 @@
 
 #streamlit >= 1.9.2
 
-import snowflake.connector
+#import snowflake.connector
 
 
