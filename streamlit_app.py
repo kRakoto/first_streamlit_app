@@ -1,5 +1,5 @@
 
-import streamlit >= 1.9.2
+import streamlit 
 import pandas
 import requests
 import snowflake.connector
