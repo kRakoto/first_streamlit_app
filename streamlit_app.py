@@ -2,6 +2,7 @@
 import streamlit >= 1.9.2
 import pandas
 import requests
+import snowflake.connector
 
 ## link of Streamlit app
 ## https://krakoto-first-streamlit-app-streamlit-app-96wo2v.streamlit.app/
