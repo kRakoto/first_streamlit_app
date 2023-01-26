@@ -1,5 +1,5 @@
 
-import streamlit
+import streamlit >= 1.9.2
 import pandas
 import requests
 
