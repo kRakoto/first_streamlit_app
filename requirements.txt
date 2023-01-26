@@ -1,15 +1,20 @@
 # requirements.txt
-snowflake-connector-python
+#snowflake-connector-python
 
 
-cffi==1.15.0
+#cffi==1.15.0
 
-pyarrow==6.0.1
+#pyarrow==6.0.1
 #pyarrow<8.1.0,>=8.0.0
 
 #streamlit >= 1.9.2
 
-import snowflake.connector
+#import snowflake.connector
+
+
+######################Issue about pip, which is not upgraded to version 22.3.1########################
+
+
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
